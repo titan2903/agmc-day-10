@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	"agmc-day-8/database/config"
-	"agmc-day-8/internal/mock"
-	"agmc-day-8/internal/repositories"
-	"agmc-day-8/internal/services"
+	"agmc-day-10/database/config"
+	"agmc-day-10/internal/mock"
+	"agmc-day-10/internal/repositories"
+	"agmc-day-10/internal/services"
 	"net/http"
 	"testing"
 

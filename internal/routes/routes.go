@@ -1,11 +1,11 @@
 package routes
 
 import (
-	"agmc-day-8/database/config"
-	"agmc-day-8/internal/handlers"
-	m "agmc-day-8/internal/middleware"
-	repositories "agmc-day-8/internal/repositories"
-	"agmc-day-8/internal/services"
+	"agmc-day-10/database/config"
+	"agmc-day-10/internal/handlers"
+	m "agmc-day-10/internal/middleware"
+	repositories "agmc-day-10/internal/repositories"
+	"agmc-day-10/internal/services"
 
 	"github.com/labstack/echo/v4"
 )

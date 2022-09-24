@@ -1,9 +1,9 @@
 package services
 
 import (
-	"agmc-day-8/internal/dto"
-	"agmc-day-8/internal/models"
-	repositories "agmc-day-8/internal/repositories"
+	"agmc-day-10/internal/dto"
+	"agmc-day-10/internal/models"
+	repositories "agmc-day-10/internal/repositories"
 )
 
 type services struct {

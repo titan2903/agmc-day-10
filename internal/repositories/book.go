@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"agmc-day-8/internal/models"
+	"agmc-day-10/internal/models"
 )
 
 func (r *repositories) CreateBook(book *models.Book) error {

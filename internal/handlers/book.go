@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"agmc-day-8/internal/dto"
-	"agmc-day-8/internal/models"
+	"agmc-day-10/internal/dto"
+	"agmc-day-10/internal/models"
 	"net/http"
 	"strconv"
 

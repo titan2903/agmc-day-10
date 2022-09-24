@@ -1,8 +1,8 @@
 package main
 
 import (
-	"agmc-day-8/internal/routes"
-	"agmc-day-8/pkg/utils"
+	"agmc-day-10/internal/routes"
+	"agmc-day-10/pkg/utils"
 	"fmt"
 )
 

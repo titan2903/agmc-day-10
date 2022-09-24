@@ -1,7 +1,7 @@
 package truncate
 
 import (
-	"agmc-day-8/database/config"
+	"agmc-day-10/database/config"
 	"log"
 
 	"gorm.io/gorm"

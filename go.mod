@@ -1,4 +1,4 @@
-module agmc-day-8
+module agmc-day-10
 
 go 1.18
 

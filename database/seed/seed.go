@@ -1,9 +1,9 @@
 package seed
 
 import (
-	"agmc-day-8/database/config"
-	"agmc-day-8/internal/models"
-	"agmc-day-8/pkg/utils"
+	"agmc-day-10/database/config"
+	"agmc-day-10/internal/models"
+	"agmc-day-10/pkg/utils"
 	"log"
 
 	"gorm.io/gorm"

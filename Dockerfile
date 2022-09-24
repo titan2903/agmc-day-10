@@ -19,12 +19,12 @@ RUN go mod download
 COPY . .
 RUN cp -rf ./.env.example ./.env
 # Build app
-RUN go build -o agmc-day-8
+RUN go build -o agmc-day-10
 
 # step 2: build a small image
 FROM alpine:3.16.0
 RUN apk add bash build-base gcompat
-COPY --from=build /app/agmc-day-8 .
+COPY --from=build /app/agmc-day-10 .
 # Expose port
 EXPOSE 8000
-CMD ["/agmc-day-8"]
+CMD ["/agmc-day-10"]

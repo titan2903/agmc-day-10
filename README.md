@@ -12,7 +12,7 @@
 
 - Pull Docker Image from Docker Hub
 
-  [Link URL to Docker Image agmc-day-8](https://hub.docker.com/r/titan29/agmc-day-8)
+  [Link URL to Docker Image agmc-day-10](https://hub.docker.com/r/titan29/agmc-day-10)
 
 ## Prerequisite
 

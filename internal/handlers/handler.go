@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"agmc-day-8/internal/services"
+	"agmc-day-10/internal/services"
 
 	"github.com/labstack/echo/v4"
 )

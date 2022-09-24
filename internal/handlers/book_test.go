@@ -1,14 +1,14 @@
 package handlers
 
 import (
-	"agmc-day-8/database/config"
-	"agmc-day-8/database/seed"
-	"agmc-day-8/database/truncate"
-	"agmc-day-8/internal/middleware"
-	"agmc-day-8/internal/mock"
-	"agmc-day-8/internal/models"
-	"agmc-day-8/internal/repositories"
-	"agmc-day-8/internal/services"
+	"agmc-day-10/database/config"
+	"agmc-day-10/database/seed"
+	"agmc-day-10/database/truncate"
+	"agmc-day-10/internal/middleware"
+	"agmc-day-10/internal/mock"
+	"agmc-day-10/internal/models"
+	"agmc-day-10/internal/repositories"
+	"agmc-day-10/internal/services"
 	"bytes"
 	"encoding/json"
 	"fmt"

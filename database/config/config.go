@@ -1,10 +1,10 @@
 package config
 
 import (
-	"agmc-day-8/internal/models"
-	repositories "agmc-day-8/internal/repositories"
-	"agmc-day-8/internal/services"
-	"agmc-day-8/pkg/utils"
+	"agmc-day-10/internal/models"
+	repositories "agmc-day-10/internal/repositories"
+	"agmc-day-10/internal/services"
+	"agmc-day-10/pkg/utils"
 	"fmt"
 	"log"
 	"sync"
@@ -72,10 +72,11 @@ func GetQuery() *gorm.DB {
 		//! ----------------------------------------------------------------------------------------------
 
 		// ! Connect to PostgreSQL database
-		dsnMaster := fmt.Sprintf(
-			"host=%s user=%s password=%s dbname=%s port=%s sslmode=%s",
-			utils.GoDotEnvVariable("DB_HOST"), utils.GoDotEnvVariable("DB_USER"), utils.GoDotEnvVariable("DB_PASSWORD"), utils.GoDotEnvVariable("DB_NAME"), utils.GoDotEnvVariable("DB_PORT"), utils.GoDotEnvVariable("SSL_MODE"),
-		)
+		// dsnMaster := fmt.Sprintf(
+		// 	"host=%s user=%s password=%s dbname=%s port=%s sslmode=%s",
+		// 	utils.GoDotEnvVariable("DB_HOST"), utils.GoDotEnvVariable("DB_USER"), utils.GoDotEnvVariable("DB_PASSWORD"), utils.GoDotEnvVariable("DB_NAME"), utils.GoDotEnvVariable("DB_PORT"), utils.GoDotEnvVariable("SSL_MODE"),
+		// )
+		dsnMaster := utils.GoDotEnvVariable("DATABASE_URL")
 		dbMaster, errMaster := gorm.Open(postgres.Open(dsnMaster), &gorm.Config{})
 		if errMaster != nil {
 			log.Panic(errMaster)
