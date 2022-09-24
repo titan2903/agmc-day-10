@@ -1,12 +1,14 @@
 # RESTful API User, Review And Book
 
-## Deployment on Heroku
+## Deployment on Heroku with CI/CD using Github Actions
 
-- [Public URL Deployment Success](https://mysterious-mountain-19825.herokuapp.com/v1/healthcheck)
+- [Public URL Deployment Success](https://secure-cliffs-57526.herokuapp.com/v1/healthcheck)
   
-- ![Image Deployment Success](pkg/images/server-deploy-success.png)
+- ![Image Deployment Success](pkg/images/success-deployment-through-github-action.png)
   
-- ![Image Deployment Success on Browser](pkg/images/deploy-success-on-browser.png)
+- ![Github Actions Workflows](pkg/images/workflows-github.png)
+
+- ![Success CI/CD Pipeline](pkg/images/ci-cd-success.png)
 
 ## Docker Image
 
