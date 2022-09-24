@@ -5,6 +5,8 @@
 - [Public URL Deployment Success](https://secure-cliffs-57526.herokuapp.com/v1/healthcheck)
   
 - ![Image Deployment Success](pkg/images/success-deployment-through-github-action.png)
+
+- ![Health Check URL](pkg/images/hit-healthcheck-url.png)
   
 - ![Github Actions Workflows](pkg/images/workflows-github.png)
 
